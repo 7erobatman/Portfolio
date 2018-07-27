@@ -116,7 +116,7 @@ main {
 // Work/Projects
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 0.7rem; //20px
   grid-template-columns: repeat(3, 1fr);
 
   img {
@@ -172,7 +172,7 @@ main {
 .btn-dark {
   @extend .btn;
   background: darken($primary-color, 50);
-  color: #fff;
+  color: #fff; // color of text
 }
 
 .btn-light {
