@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #16191b;
+    background: #101113;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #222629;
+    background: #16191b;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/gourav.jpg");
+      background: url("../img/k_g.jpg");
       border-radius: 50%;
       border: solid 3px #86c232; }
   .menu .nav-item {
@@ -101,7 +101,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/backgrounds.jpg);
+    background: url(../img/b3.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -122,7 +122,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 4rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -144,6 +144,7 @@ header {
 
 main {
   padding: 4rem;
+  height: 100%;
   min-height: calc(100vh-60px); }
   main .icons {
     margin-top: 1rem; }
@@ -200,10 +201,10 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
@@ -267,7 +268,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/gourav_small.jpg");
+      background: url("../img/k_g_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
