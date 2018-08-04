@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/k_g.jpg");
+      background: url("../img/gourav.jpg");
       border-radius: 50%;
       border: solid 3px #86c232; }
   .menu .nav-item {
@@ -268,7 +268,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/k_g_small.jpg");
+      background: url("../img/gourav_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
